@@ -1,0 +1,13 @@
+demo_poc_2:
+  outputs:
+    dev:
+      host: 10.160.34.240
+      method: thrift
+      port: 10001
+      schema: appflow
+      threads: 1
+      type: spark
+      auth: NOSASL
+      user: root
+  target: dev
+
